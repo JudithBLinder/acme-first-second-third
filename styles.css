@@ -10,14 +10,15 @@
     display: flex;
     flex-direction: row;
 }
-.slotContainer{
+
+.formContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 1;
     border: solid tomato 2px;
     margin: 20px;
     width: 30%;
-    height: 300px;
 }
 
 .rightButton, .leftButton{
@@ -39,6 +40,12 @@
     font-weight: bold;
 }
 
+.usersContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 .user{
     border: solid black 1px;
     vertical-align: baseline;
@@ -47,4 +54,8 @@
     line-height: 30px;
     margin: 2px;
     padding: 5px;
+}
+
+.true{
+    background-color: tomato;
 }
